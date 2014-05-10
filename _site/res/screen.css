@@ -10,13 +10,6 @@
         format('truetype');
 }
 
-@font-face {
-    font-family: 'agentletouch';
-    font-style: normal;
-    font-weight: 500;
-    src: url('/res/agentletouch.ttf')
-        format('truetype');
-}
 
 @font-face {
     font-family: 'dawning';
