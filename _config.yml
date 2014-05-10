@@ -1,0 +1,15 @@
+title: The Nurturing Kitchen
+description: "The Nurturing Kitchen: a food blog for the nurturer"
+
+port: 3000
+pygments: true
+
+permalink: /:year/:month/:day/:title.html
+markdown: redcarpet
+
+google_analytics: #
+
+owner:
+  name: Jessica Odell
+  disqus_shortname: jessicaroseodell
+  twitter: jessroseodell
