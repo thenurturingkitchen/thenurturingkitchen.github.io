@@ -10,11 +10,27 @@
         format('truetype');
 }
 
+@font-face {
+    font-family: 'agentletouch';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/res/agentletouch.ttf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'dawning';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/res/dawning.ttf')
+        format('truetype');
+}
+
+
 #blog-title {
-    font-family: 'handwritting';
+    font-family: 'dawning';
     font-size: 40px;
     font-style: italic;
-    text-transform: uppercase;
 }
 #blog-title a{
     text-decoration: none;
