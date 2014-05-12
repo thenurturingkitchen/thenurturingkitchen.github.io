@@ -13,10 +13,10 @@
         </div><!-- ./search-wrapper -->
 
         <iframe id="sidebar"></iframe>
-        <header>
+        <header class="logo-header">
             <h1 class="logo" id="blog-title"><a href="/">{{ site.title }}</a></h1>
             <ul class="navigation">
-                <li><a href="{{site.url}}/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Recipes</a></li>
+                <li><a href="{{site.url}}/recipes/"{% if page.url contains "/recipes/" %}class="active"{% endif %} title="Recipes">Recipes</a></li>
                 <li><a href="{{site.url}}/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About</a></li>
             </ul>
         </header>
@@ -36,11 +36,9 @@
 
         {% unless page.no_footer %}
         <footer>
-            <p>Powered by Jekyll - <a href="http://github.com/nadjetey/redcup">Redcup</a> Theme</p>
             <p>
                 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="{{site.url}}/res/cc-cc.png" class="cc">
-                    <img src="{{site.url}}/res/cc-by.png" class="cc"></a>
-                This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+                <img src="{{site.url}}/res/cc-by.png" class="cc"></a>
             </p>
         </footer>
         {% endunless %}

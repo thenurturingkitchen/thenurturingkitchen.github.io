@@ -19,11 +19,15 @@
         format('truetype');
 }
 
+.logo-header {
+    white-space:nowrap;
+}
 
 #blog-title {
     font-family: 'dawning';
-    font-size: 40px;
+    font-size: 3.9vh;
     font-style: italic;
+    white-space:nowrap;
 }
 #blog-title a{
     text-decoration: none;

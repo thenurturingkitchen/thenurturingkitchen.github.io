@@ -1,6 +1,8 @@
 title: The Nurturing Kitchen
 description: "The Nurturing Kitchen: a food blog for the nurturer"
 
+timezone: America/Denver
+
 port: 3000
 pygments: true
 
